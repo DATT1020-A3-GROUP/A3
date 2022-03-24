@@ -2,7 +2,7 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3730103362,
+	"modificationdate" : 3730989140,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,14 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"cave_map.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}
