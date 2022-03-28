@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 1157.0, 1852.0, 929.0 ],
+		"rect" : [ 26.0, 1157.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -8989,8 +8989,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 354.333312999999976, 67.0, 259.0, 22.0 ],
-					"text" : "jit.gl.cubemap @file panorama_cube_map.png"
+					"patching_rect" : [ 354.333312999999976, 67.0, 207.0, 22.0 ],
+					"text" : "jit.gl.cubemap @file garden_map.png"
 				}
 
 			}
