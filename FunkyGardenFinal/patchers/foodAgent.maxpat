@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 91.0, 1852.0, 923.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,8 +127,7 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 933.0, 627.333373999999935, 87.0, 22.0 ],
 					"text" : "collisionParser"
 				}
@@ -341,7 +340,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -907,8 +906,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.833327999999995, 422.666687000000024, 94.0, 22.0 ],
-					"text" : "read print15.obj"
+					"patching_rect" : [ 71.833327999999995, 422.666687000000024, 105.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "read butterfly1.obj"
 				}
 
 			}
@@ -1257,16 +1257,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "collisionParser.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Projects/DATT1020/Week8",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

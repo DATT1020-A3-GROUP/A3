@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -362,7 +362,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -461,7 +461,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -914,22 +914,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 16,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
+									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 261.0, 526.0, 176.5, 21.0 ],
-									"saved_object_attributes" : 									{
-										"active" : [ 1 ],
-										"center_att_db" : 6.0,
-										"center_curve" : 0.2,
-										"center_size" : 1.0,
-										"db_unit" : 1.5,
-										"dist_att" : 1.0,
-										"exp_curve" : 1.0,
-										"exp_cutoff_dist" : 30.0,
-										"order" : 3,
-										"rotate_order" : 0,
-										"type" : 1
-									}
-,
 									"text" : "ambiencode~ 3 1"
 								}
 
@@ -1862,7 +1848,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2299,7 +2285,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2866,8 +2852,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.833327999999995, 422.666687000000024, 94.0, 22.0 ],
-					"text" : "read print15.obj"
+					"patching_rect" : [ 71.833327999999995, 422.666687000000024, 105.0, 22.0 ],
+					"text" : "read butterfly1.obj"
 				}
 
 			}
@@ -3387,20 +3373,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "collisionParser.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Projects/DATT1020/Week8",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ambiencode~.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
