@@ -8,8 +8,6 @@
 ,
 	"mousemap" : 	{
 		"mouse_down_horizontal" : "turn 0 -1 0",
-		"mouse_down_vertical" : "turn -1 0 0",
-		"mouse_up_horizontal" : "turn 0 1 0"
 		
 	}
 

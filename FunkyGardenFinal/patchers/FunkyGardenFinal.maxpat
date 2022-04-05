@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
+		"rect" : [ 42.0, 85.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -563,110 +563,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 820.333282000000054, 344.5, 173.000031000000007, 131.0 ],
-					"text" : "You can open an externally saved .yml file in a plain text editor, like TextEdit, and edit it there too! Just don't change the file name extension when you save your changes! Re-import the file into the project after any changes.\nSave & reload the project.",
-					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-28",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 652.5, 236.5, 311.0, 117.0 ],
-					"text" : "1) \nIf you double-click on a jit.anim.drive with @ui_listen 1 you can then edit the ui_listen text to use different keys, keep or delete mouse actions, or even delete certain keys to disable certain directions of movement.\nThen save the ui_listen text externally, adding .yml on the end of the name. Now you can use your .yml file in a project, by importing the .yml into the Project window!",
-					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-59",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1002.333312999999976, 399.5, 164.499939000000012, 20.0 ],
-					"text" : "create matching dict name>>",
-					"textcolor" : [ 0.572549, 0.27451, 0.027451, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-90",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 654.583313000000089, 555.833312999999976, 207.0, 34.0 ],
-					"text" : "<< change this to the dict name \n          as needed ",
-					"textcolor" : [ 0.572549, 0.27451, 0.027451, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-115",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 658.583313000000089, 502.833312999999976, 150.0, 48.0 ],
-					"text" : "delay 30 lets import command happen before this command",
-					"textcolor" : [ 0.572549, 0.27451, 0.027451, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-116",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1011.333312999999976, 345.5, 164.0, 34.0 ],
-					"text" : "change name of .yml file >>\nas needed ",
-					"textcolor" : [ 0.572549, 0.27451, 0.027451, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"id" : "obj-118",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 594.583313000000089, 416.833312999999976, 165.0, 48.0 ],
-					"text" : "4)\nLoad the dict file you made for key/mouse controls:",
-					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-120",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 956.333282000000054, 236.5, 174.0, 75.0 ],
-					"text" : "2)\nAlready made and Imported into this project, is a text file  called NoZaxis.yml\n(see it in the Project Window)",
-					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"id" : "obj-121",
 					"maxclass" : "newobj",
@@ -737,27 +633,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"id" : "obj-125",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1128.333313000000089, 236.5, 177.0, 75.0 ],
-					"text" : "3)\nImport the modified ui listen file (that you made for key/mouse controls) into a dict\nusing these commands:",
-					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"id" : "obj-126",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1166.833251999999902, 313.5, 60.0, 22.0 ],
+					"patching_rect" : [ 683.833251999999902, 512.5, 60.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -770,7 +652,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1166.833251999999902, 399.5, 75.0, 22.0 ],
+					"patching_rect" : [ 683.833251999999902, 598.5, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -798,7 +680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1166.833251999999902, 345.5, 111.0, 22.0 ],
+					"patching_rect" : [ 683.833251999999902, 544.5, 111.0, 22.0 ],
 					"text" : "import NoZaxis.yml"
 				}
 
@@ -902,7 +784,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1802,7 +1684,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1928,7 +1810,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2027,7 +1909,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 2,
-															"revision" : 1,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2480,8 +2362,21 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 16,
-													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+													"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 													"patching_rect" : [ 261.0, 526.0, 176.5, 21.0 ],
+													"saved_object_attributes" : 													{
+														"active" : [ 1 ],
+														"center_att_db" : 6.0,
+														"center_curve" : 0.2,
+														"center_size" : 1.0,
+														"db_unit" : 1.5,
+														"dist_att" : 1.0,
+														"exp_curve" : 1.0,
+														"exp_cutoff_dist" : 30.0,
+														"order" : 3,
+														"rotate_order" : 0
+													}
+,
 													"text" : "ambiencode~ 3 1"
 												}
 
@@ -3423,7 +3318,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3550,7 +3445,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 128.757126, 198.827942000000007, 22.0 ],
-													"text" : "-38.728214 1.006436 76.497353"
+													"text" : "77.358963 0.786581 30.82"
 												}
 
 											}
@@ -4689,7 +4584,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1197.083313000000089, 986.66668449660483, 50.0, 22.0 ],
-					"text" : "-35"
+					"text" : "-11"
 				}
 
 			}
@@ -4701,7 +4596,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1469.083313000000089, 1002.666686165534884, 29.5, 22.0 ],
-					"text" : "-35"
+					"text" : "-11"
 				}
 
 			}
@@ -4725,7 +4620,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1304.333313000000089, 1002.666686165534884, 29.5, 22.0 ],
-					"text" : "-35"
+					"text" : "-11"
 				}
 
 			}
@@ -5545,7 +5440,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "boundsAgent.maxpat",
-				"bootpath" : "~/Downloads/A3-main (2)/A3-main/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5558,31 +5453,35 @@
 			}
 , 			{
 				"name" : "foodAgent.maxpat",
-				"bootpath" : "~/Downloads/A3-main (2)/A3-main/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wallAgent.maxpat",
-				"bootpath" : "~/Downloads/A3-main (2)/A3-main/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wallAgent2.maxpat",
-				"bootpath" : "~/Downloads/A3-main (2)/A3-main/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wallAgent3.maxpat",
-				"bootpath" : "~/Downloads/A3-main (2)/A3-main/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "ambiencode~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
