@@ -2,8 +2,8 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3731933890,
-	"viewrect" : [ 1026.0, 162.0, 300.0, 500.0 ],
+	"modificationdate" : 3731972389,
+	"viewrect" : [ 1777.0, 248.0, 298.0, 498.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -26,11 +26,6 @@
 				"local" : 1
 			}
 ,
-			"collisionParser.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"wallAgent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -40,10 +35,40 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"collisionParser.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"wallAgent3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"chair.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"flower.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"fountain.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"mushroom.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
 			"cave_map.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -64,17 +89,12 @@
 				"local" : 1
 			}
 ,
-			"Sequoia_2.obj" : 			{
+			"tree.obj" : 			{
 				"kind" : "model",
 				"local" : 1
 			}
 ,
 			"doug3.obj" : 			{
-				"kind" : "model",
-				"local" : 1
-			}
-,
-			"Sequoia_1.obj" : 			{
 				"kind" : "model",
 				"local" : 1
 			}
