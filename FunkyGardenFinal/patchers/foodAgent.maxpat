@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 618.0, 196.0, 70.0, 22.0 ],
+					"text" : "loadmess 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -932,12 +944,31 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.833336000000003, 431.666687000000024, 183.0, 22.0 ]
+					"patching_rect" : [ 262.833350999999993, 429.666687000000024, 306.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "scale",
+					"id" : "obj-7",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 542.833336000000031, 296.666687000000024, 150.0, 22.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 1081.5, 327.0, 1081.5, 327.0 ],
@@ -948,7 +979,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 189.333336000000003, 468.0, 81.333327999999995, 468.0 ],
+					"midpoints" : [ 272.333350999999993, 468.0, 81.333327999999995, 468.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -956,7 +987,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 189.333336000000003, 420.0, 189.333336000000003, 420.0 ],
+					"midpoints" : [ 189.333336000000003, 420.0, 272.333350999999993, 420.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1111,6 +1142,13 @@
 					"destination" : [ "obj-50", 0 ],
 					"midpoints" : [ 131.999993494441981, 576.0, 57.0, 576.0, 57.0, 477.0, 81.333327999999995, 477.0 ],
 					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
