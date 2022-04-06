@@ -2,8 +2,8 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3731972389,
-	"viewrect" : [ 1777.0, 248.0, 298.0, 498.0 ],
+	"modificationdate" : 3732056207,
+	"viewrect" : [ 1573.0, 222.0, 298.0, 498.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,22 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"boundsAgent.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"foodAgent.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"wallAgent.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"wallAgent2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -41,7 +26,22 @@
 				"local" : 1
 			}
 ,
+			"wallAgent2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"wallAgent3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"boundsAgent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"foodAgent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -65,6 +65,16 @@
 			}
 ,
 			"mushroom.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"fox.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"bird.obj" : 			{
 				"kind" : "model",
 				"local" : 1
 			}
@@ -100,8 +110,7 @@
 			}
 ,
 			"panorama_cube_map.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
+				"kind" : "imagefile"
 			}
 ,
 			"print15.obj" : 			{
@@ -126,6 +135,10 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,

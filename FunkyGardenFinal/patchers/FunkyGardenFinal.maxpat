@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1468.0, 705.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,76 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 291.0, 1131.499999165534973, 52.0, 22.0 ],
+					"text" : "open $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 291.0, 1097.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 112.0, 1147.499999165534973, 52.0, 22.0 ],
+					"text" : "open $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 112.0, 1113.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 269.833312999999976, 1186.0, 112.0, 22.0 ],
+					"text" : "poly~ foodAgent 15"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 122.0, 1182.5, 128.0, 22.0 ],
+					"text" : "poly~ boundsAgent 30"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "message",
@@ -1562,41 +1632,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 231.0, 441.833312999999976, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-86",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 1132.499999165534973, 52.0, 22.0 ],
-					"text" : "open $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-84",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 97.0, 1098.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 254.833312999999976, 1171.0, 112.0, 22.0 ],
-					"text" : "poly~ foodAgent 15"
 				}
 
 			}
@@ -3367,13 +3402,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-118",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 128.757126, 198.827942000000007, 22.0 ],
-													"text" : "-128.044586 -40.931671 78.57"
+													"text" : "54.4 24.427122 88.69"
 												}
 
 											}
@@ -4435,17 +4469,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-56",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 1167.5, 128.0, 22.0 ],
-					"text" : "poly~ boundsAgent 30"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attr" : "position",
 					"id" : "obj-1",
 					"maxclass" : "attrui",
@@ -4715,6 +4738,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -4724,6 +4754,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 300.5, 1122.0, 300.5, 1122.0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -5003,7 +5041,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
-					"midpoints" : [ 106.5, 1123.0, 106.5, 1123.0 ],
+					"midpoints" : [ 121.5, 1138.0, 121.5, 1138.0 ],
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -5018,7 +5056,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 106.5, 1162.0, 116.5, 1162.0 ],
+					"midpoints" : [ 121.5, 1177.0, 131.5, 1177.0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -5032,7 +5070,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "boundsAgent.maxpat",
+				"name" : "cello-f2.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wallAgent.maxpat",
 				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -5040,26 +5084,6 @@
 			}
 , 			{
 				"name" : "collisionParser.maxpat",
-				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cello-f2.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "foodAgent.maxpat",
-				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wallAgent.maxpat",
 				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -5074,6 +5098,20 @@
 			}
 , 			{
 				"name" : "wallAgent3.maxpat",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "boundsAgent.maxpat",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "foodAgent.maxpat",
 				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
