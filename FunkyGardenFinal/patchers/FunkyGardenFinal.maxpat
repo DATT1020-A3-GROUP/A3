@@ -1567,18 +1567,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-88",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 1006.0, 150.0, 48.0 ],
-					"text" : "This allows me to open and look at any of the 30 copies of boundsAgent"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1603,72 +1591,11 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-82",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 438.0, 1162.0, 163.0, 62.0 ],
-					"text" : "Our collision detection techniques are also customized to work with poly~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-80",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 259.833312999999976, 1151.0, 158.0, 117.0 ],
-					"text" : "Poly~ was made to work w/ synthesizers but we can use it to make many/multiple copies of a custom object & have a better performance than having multiple copies of a subpatcher."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-78",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 259.833312999999976, 1078.0, 150.0, 62.0 ],
-					"text" : "There is an object in Max that allows you to make multiple of a single object, called poly~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-73",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 449.333343267440796, 1073.499999165534973, 151.0, 62.0 ],
-					"text" : "Any change to the custom object will automatically change ALL instances of that object to be the same"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"linecount" : 12,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 449.333343267440796, 896.499999165535087, 151.0, 172.0 ],
-					"text" : "How could I edit 1 and make them ALL edited at the same time automatically?  An Option: a custom object like boundsAgent.\n\nA custom Max object.  This is why some refer to Max as an Object-Oriented Programming envrionment"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.833312999999976, 1006.0, 112.0, 22.0 ],
+					"patching_rect" : [ 254.833312999999976, 1171.0, 112.0, 22.0 ],
 					"text" : "poly~ foodAgent 15"
 				}
 
@@ -1690,7 +1617,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
+						"rect" : [ 42.0, 85.0, 1468.0, 705.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3440,12 +3367,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-118",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 128.757126, 198.827942000000007, 22.0 ],
-													"text" : "77.358963 0.786581 30.82"
+													"text" : "-128.044586 -40.931671 78.57"
 												}
 
 											}
@@ -4493,7 +4421,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 796.833312999999976, 1078.0, 58.0, 22.0 ],
+					"patching_rect" : [ 427.833312999999976, 1171.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4502,29 +4430,6 @@
 					}
 ,
 					"text" : "p bounce"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 271.333343267440796, 917.999999165534973, 150.0, 20.0 ],
-					"text" : "Encapsulated agents"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 271.333343267440796, 946.0, 154.0, 117.0 ],
-					"text" : "If I can't see the agents, I could change the scale.\nBut for now I'd have to edit every boundsAgent to make them a little larger OR fix one of them, delete the others, and re-copy that fixed one."
 				}
 
 			}
@@ -4541,159 +4446,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1298.083313000000089, 905.166672945022583, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-48",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1568.25, 956.666686165534884, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-72",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1578.333313000000089, 1129.666686165534884, 29.5, 22.0 ],
-					"text" : "+"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-76",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1197.083313000000089, 986.66668449660483, 50.0, 22.0 ],
-					"text" : "-11"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1469.083313000000089, 1002.666686165534884, 29.5, 22.0 ],
-					"text" : "-11"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1285.083313000000089, 1106.666686165534884, 29.5, 22.0 ],
-					"text" : "-"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-89",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1304.333313000000089, 1002.666686165534884, 29.5, 22.0 ],
-					"text" : "-11"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-92",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1641.75, 1006.666686165534884, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-93",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1648.0, 910.999999165534973, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-94",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1662.25, 951.666686165534884, 29.5, 22.0 ],
-					"text" : "2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 1381.583313000000089, 907.166672945022583, 69.0, 22.0 ],
-					"text" : "sel 119 115"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-96",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 1381.583313000000089, 835.499999165534973, 50.5, 22.0 ],
-					"text" : "key"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attr" : "position",
 					"id" : "obj-1",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.166687000000024, 724.833312999999976, 378.0, 22.0 ]
+					"patching_rect" : [ 235.333313000000089, 756.833312999999976, 378.0, 22.0 ]
 				}
 
 			}
@@ -4951,14 +4710,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"midpoints" : [ 1307.583313000000089, 971.499999165534973, 1206.583313000000089, 971.499999165534973 ],
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -5223,33 +4974,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 1 ],
-					"midpoints" : [ 1587.833313000000089, 1154.499999165534973, 1257.0, 1154.499999165534973, 1257.0, 980.499999165534973, 1237.583313000000089, 980.499999165534973 ],
-					"order" : 2,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-79", 1 ],
-					"midpoints" : [ 1587.833313000000089, 1154.499999165534973, 1509.0, 1154.499999165534973, 1509.0, 998.499999165534973, 1489.083313000000089, 998.499999165534973 ],
-					"order" : 0,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-89", 1 ],
-					"midpoints" : [ 1587.833313000000089, 1154.499999165534973, 1344.0, 1154.499999165534973, 1344.0, 998.499999165534973, 1324.333313000000089, 998.499999165534973 ],
-					"order" : 1,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -5264,14 +4988,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"midpoints" : [ 1478.583313000000089, 1115.499999165534973, 1587.833313000000089, 1115.499999165534973 ],
-					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-8", 1 ]
 				}
@@ -5281,33 +4997,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 1 ],
-					"midpoints" : [ 1294.583313000000089, 1130.499999165534973, 1257.0, 1130.499999165534973, 1257.0, 980.499999165534973, 1237.583313000000089, 980.499999165534973 ],
-					"order" : 2,
-					"source" : [ "obj-83", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-79", 1 ],
-					"midpoints" : [ 1294.583313000000089, 1130.499999165534973, 1455.0, 1130.499999165534973, 1455.0, 989.499999165535087, 1489.083313000000089, 989.499999165535087 ],
-					"order" : 0,
-					"source" : [ "obj-83", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-89", 1 ],
-					"midpoints" : [ 1294.583313000000089, 1130.499999165534973, 1272.0, 1130.499999165534973, 1272.0, 989.499999165535087, 1324.333313000000089, 989.499999165535087 ],
-					"order" : 1,
-					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -5336,110 +5025,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 1313.833313000000089, 1091.499999165534973, 1294.583313000000089, 1091.499999165534973 ],
-					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 1 ],
-					"midpoints" : [ 1651.25, 1115.499999165534973, 1598.333313000000089, 1115.499999165534973 ],
-					"order" : 0,
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-83", 1 ],
-					"midpoints" : [ 1651.25, 1091.499999165534973, 1305.083313000000089, 1091.499999165534973 ],
-					"order" : 1,
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"midpoints" : [ 1657.5, 947.499999165534973, 1671.75, 947.499999165534973 ],
-					"source" : [ "obj-93", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
-					"midpoints" : [ 1671.75, 992.499999165535087, 1651.25, 992.499999165535087 ],
-					"source" : [ "obj-94", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 1416.083313000000089, 938.499999165534973, 1332.0, 938.499999165534973, 1332.0, 899.499999165534973, 1307.583313000000089, 899.499999165534973 ],
-					"order" : 1,
-					"source" : [ "obj-95", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 1391.083313000000089, 929.499999165534973, 1332.0, 929.499999165534973, 1332.0, 899.499999165534973, 1307.583313000000089, 899.499999165534973 ],
-					"order" : 1,
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
-					"midpoints" : [ 1391.083313000000089, 989.499999165535087, 1478.583313000000089, 989.499999165535087 ],
-					"order" : 0,
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
-					"midpoints" : [ 1416.083313000000089, 989.499999165535087, 1313.833313000000089, 989.499999165535087 ],
-					"order" : 0,
-					"source" : [ "obj-95", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 1391.083313000000089, 893.499999165534973, 1577.75, 893.499999165534973 ],
-					"order" : 0,
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"midpoints" : [ 1391.083313000000089, 860.499999165534973, 1391.083313000000089, 860.499999165534973 ],
-					"order" : 1,
-					"source" : [ "obj-96", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "boundsAgent.maxpat",
+				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "collisionParser.maxpat",
 				"bootpath" : "J:/GitHub/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

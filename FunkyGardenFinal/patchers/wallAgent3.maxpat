@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
+		"rect" : [ 42.0, 85.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -580,8 +580,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 558.833312999999976, 208.666687000000024, 81.5, 22.0 ],
-					"text" : "wall1"
+					"patching_rect" : [ 558.833312999999976, 208.666687000000024, 53.0, 22.0 ],
+					"text" : "flowers1"
 				}
 
 			}
@@ -605,8 +605,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 653.833312999999976, 184.833373999999992, 81.0, 22.0 ],
-					"text" : "sprintf wall%i"
+					"patching_rect" : [ 653.833312999999976, 184.833373999999992, 103.0, 22.0 ],
+					"text" : "sprintf flowers1%i"
 				}
 
 			}
