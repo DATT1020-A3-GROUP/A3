@@ -2,7 +2,7 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3732056207,
+	"modificationdate" : 3732120156,
 	"viewrect" : [ 1573.0, 222.0, 298.0, 498.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -38,7 +38,8 @@
 ,
 			"boundsAgent.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"foodAgent.maxpat" : 			{
@@ -49,6 +50,81 @@
 		}
 ,
 		"media" : 		{
+			"A (1).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"A (6).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"A (8).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"A (13).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"A (24).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"B (20).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"B (30).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"B (34).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"B (39).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"B (42).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"C (4).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"C (9).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"D (18).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"D (21).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"D (23).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"chair.obj" : 			{
 				"kind" : "model",
 				"local" : 1
@@ -110,7 +186,8 @@
 			}
 ,
 			"panorama_cube_map.png" : 			{
-				"kind" : "imagefile"
+				"kind" : "imagefile",
+				"local" : 1
 			}
 ,
 			"print15.obj" : 			{
