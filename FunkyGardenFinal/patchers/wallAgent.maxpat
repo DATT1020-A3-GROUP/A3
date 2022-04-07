@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -661,7 +661,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 637.0, 414.0, 81.0, 22.0 ],
-					"text" : "mushroom11"
+					"text" : "flowers11"
 				}
 
 			}
@@ -924,8 +924,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.833327999999995, 246.666687000000024, 76.0, 22.0 ],
-					"text" : "read tree.obj"
+					"patching_rect" : [ 87.833327999999995, 246.666687000000024, 83.0, 22.0 ],
+					"text" : "read tree1.obj"
 				}
 
 			}
@@ -937,7 +937,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 87.833327999999995, 307.666687000000024, 714.0, 22.0 ],
-					"text" : "jit.gl.model myworld @depth_enable 1 @lighting_enable 1 @material_mode 0 @blend_enable 1 @animmode local @scale 50 50 50"
+					"text" : "jit.gl.model myworld @depth_enable 1 @lighting_enable 1 @material_mode 0 @blend_enable 1 @animmode local @scale 40 40 40"
 				}
 
 			}
@@ -1457,32 +1457,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.741176, 0.356863, 0.047059, 0.9 ],
-					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 252.333344000000011, 294.0, 97.333327999999995, 294.0 ],
-					"source" : [ "obj-63", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.466667, 0.254902, 0.607843, 0.9 ],
-					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 175.5, 162.0, 72.0, 162.0, 72.0, 294.0, 97.333327999999995, 294.0 ],
-					"source" : [ "obj-64", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 75.5, 294.0, 97.333327999999995, 294.0 ],
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
 					"destination" : [ "obj-10", 1 ],
 					"midpoints" : [ 628.5, 294.0, 72.0, 294.0, 72.0, 456.0, 423.333373999999992, 456.0 ],
@@ -1513,6 +1487,32 @@
 					"destination" : [ "", -1 ],
 					"midpoints" : [ 1375.0, 735.0 ],
 					"source" : [ "obj-115", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.741176, 0.356863, 0.047059, 0.9 ],
+					"destination" : [ "obj-50", 0 ],
+					"midpoints" : [ 252.333344000000011, 294.0, 97.333327999999995, 294.0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.466667, 0.254902, 0.607843, 0.9 ],
+					"destination" : [ "obj-50", 0 ],
+					"midpoints" : [ 175.5, 162.0, 72.0, 162.0, 72.0, 294.0, 97.333327999999995, 294.0 ],
+					"source" : [ "obj-64", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"midpoints" : [ 75.5, 294.0, 97.333327999999995, 294.0 ],
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -1547,8 +1547,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1557,8 +1557,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

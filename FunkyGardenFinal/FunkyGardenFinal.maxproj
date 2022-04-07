@@ -2,8 +2,8 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3732189077,
-	"viewrect" : [ 1326.0, 246.0, 298.0, 498.0 ],
+	"modificationdate" : 3732197852,
+	"viewrect" : [ 797.0, 226.0, 298.0, 498.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -140,6 +140,11 @@
 				"local" : 1
 			}
 ,
+			"tree1.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
 			"chair.obj" : 			{
 				"kind" : "model",
 				"local" : 1
@@ -186,11 +191,6 @@
 			}
 ,
 			"doug2.obj" : 			{
-				"kind" : "model",
-				"local" : 1
-			}
-,
-			"tree.obj" : 			{
 				"kind" : "model",
 				"local" : 1
 			}
