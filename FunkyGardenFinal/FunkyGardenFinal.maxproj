@@ -2,8 +2,8 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3732120156,
-	"viewrect" : [ 1573.0, 222.0, 298.0, 498.0 ],
+	"modificationdate" : 3732165342,
+	"viewrect" : [ 975.0, 222.0, 298.0, 498.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -50,6 +50,11 @@
 		}
 ,
 		"media" : 		{
+			"boing.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"A (1).wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -121,6 +126,16 @@
 			}
 ,
 			"D (23).wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"birdChirping2.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"WaterAmbience1.mp3" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
