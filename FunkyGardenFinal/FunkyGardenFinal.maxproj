@@ -2,8 +2,8 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3732165342,
-	"viewrect" : [ 975.0, 222.0, 298.0, 498.0 ],
+	"modificationdate" : 3732189077,
+	"viewrect" : [ 1326.0, 246.0, 298.0, 498.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -201,8 +201,7 @@
 			}
 ,
 			"panorama_cube_map.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
+				"kind" : "imagefile"
 			}
 ,
 			"print15.obj" : 			{
