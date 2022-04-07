@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
+		"rect" : [ 34.0, 77.0, 1213.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-186",
-					"linecount" : 11,
+					"id" : "obj-187",
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.5, 2505.0, 542.0, 172.0 ],
-					"text" : "-- Low poly tree sample by Simon Telezhkin\nhttps://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420\n\n-- Old Wood Chair 3D model by Marc Mons\nhttps://www.turbosquid.com/3d-models/seat-chair-3d-model-1420581\n\n-- Fountain(1) by Wakethetownvfx\nhttps://www.turbosquid.com/3d-models/maya-scanned/985011\n\n-- 3D model Low poly Mushroom by Juno Huang\nhttps://www.turbosquid.com/3d-models/3d-model-low-polymushroom-1340449\n"
+					"patching_rect" : [ 746.0, 2455.0, 305.0, 282.0 ],
+					"text" : "-- birdChirping2 https://freesound.org/people/InspectorJ/sounds/416529/\n\n-- WaterAmbience1: https://www.youtube.com/watch?v=tdtX6KtVfRo\n\n-- Xylophone Notes\nhttps://soundpacks.com/free-sound-packs/xylophone-samples-pack/\n\n-- Boing https://www.youtube.com/watch?v=7yfFyPATaGw&list=LL&index=2&t=1268s\n\n\n\n\n\n\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-186",
+					"linecount" : 14,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 118.5, 2490.0, 542.0, 213.0 ],
+					"text" : "-- Low poly tree sample by Simon Telezhkin\nhttps://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420\n\n-- Old Wood Chair 3D model by Marc Mons\nhttps://www.turbosquid.com/3d-models/seat-chair-3d-model-1420581\n\n-- Fountain(1) by Wakethetownvfx\nhttps://www.turbosquid.com/3d-models/maya-scanned/985011\n\n-- 3D model Low poly Mushroom by Juno Huang\nhttps://www.turbosquid.com/3d-models/3d-model-low-polymushroom-1340449\n\n-- Lotus\nhttps://turbosquid.com/obj-models \n"
 				}
 
 			}
@@ -506,7 +518,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -735,7 +747,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1194,7 +1206,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1293,7 +1305,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2767,7 +2779,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2882,7 +2894,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3677,7 +3689,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4029,7 +4041,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4324,7 +4336,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7762,7 +7774,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8554,7 +8566,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8628,7 +8640,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8727,7 +8739,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 2,
-															"revision" : 1,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10136,7 +10148,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12765,168 +12777,168 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "wallAgent.maxpat",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "collisionParser.maxpat",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wallAgent2.maxpat",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boing.mp3",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wallAgent3.maxpat",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A (1).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A (6).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A (8).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A (13).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A (24).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "B (20).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "B (30).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "B (34).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "B (39).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "B (42).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "C (4).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "C (9).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "D (18).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "D (21).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "D (23).wav",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boundsAgent.maxpat",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "foodAgent.maxpat",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/patchers",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "birdChirping2.mp3",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "WaterAmbience1.mp3",
-				"bootpath" : "~/Downloads/A3-main (5)/A3-main/FunkyGardenFinal/media",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
 				"patcherrelativepath" : "../media",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -12975,8 +12987,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12985,8 +12997,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
