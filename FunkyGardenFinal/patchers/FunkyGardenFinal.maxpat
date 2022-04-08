@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1213.0, 650.0 ],
+		"rect" : [ 41.0, 84.0, 1213.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,12 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-187",
-					"linecount" : 19,
+					"linecount" : 23,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.0, 2455.0, 305.0, 282.0 ],
-					"text" : "-- birdChirping2 https://freesound.org/people/InspectorJ/sounds/416529/\n\n-- WaterAmbience1: https://www.youtube.com/watch?v=tdtX6KtVfRo\n\n-- Xylophone Notes\nhttps://soundpacks.com/free-sound-packs/xylophone-samples-pack/\n\n-- Boing https://www.youtube.com/watch?v=7yfFyPATaGw&list=LL&index=2&t=1268s\n\n\n\n\n\n\n"
+					"patching_rect" : [ 746.0, 2455.0, 305.0, 338.0 ],
+					"text" : "-- birdChirping2 https://freesound.org/people/InspectorJ/sounds/416529/\n\n-- WaterAmbience1: https://www.youtube.com/watch?v=tdtX6KtVfRo\n\n-- Xylophone Notes\nhttps://soundpacks.com/free-sound-packs/xylophone-samples-pack/\n\n-- Boing https://www.youtube.com/watch?v=7yfFyPATaGw&list=LL&index=2&t=1268s\n\n-- Crumpling Paper\nhttps://www.echosfx.com/free-sound-effects/crumpling-paper-sound-effect\n\n\n\n\n\n\n"
 				}
 
 			}
@@ -10275,7 +10275,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 128.757126, 198.827942000000007, 22.0 ],
-													"text" : "-115.131599 -24.34642 39.766171"
+													"text" : "42.808552 -77.923233 97.635529"
 												}
 
 											}
@@ -12920,6 +12920,13 @@
 				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "paper.mp3",
+				"bootpath" : "~/Desktop/A3/FunkyGardenFinal/media",
+				"patcherrelativepath" : "../media",
+				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{

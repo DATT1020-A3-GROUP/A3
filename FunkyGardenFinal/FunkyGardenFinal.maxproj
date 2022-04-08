@@ -2,8 +2,8 @@
 	"name" : "FunkyGardenFinal",
 	"version" : 1,
 	"creationdate" : 3730103357,
-	"modificationdate" : 3732197852,
-	"viewrect" : [ 797.0, 226.0, 298.0, 498.0 ],
+	"modificationdate" : 3732228214,
+	"viewrect" : [ 640.0, 64.0, 639.0, 662.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -50,6 +50,11 @@
 		}
 ,
 		"media" : 		{
+			"paper.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"boing.mp3" : 			{
 				"kind" : "audiofile",
 				"local" : 1
